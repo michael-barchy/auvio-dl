@@ -21,8 +21,8 @@ Download videos from auvio
   - copy ffmpeg to N-m3u8DL-RE folder
 * https://files.videohelp.com/u/303646/Auvio.zip
   - unpack it under a folder named Auvio where the ZIP file was extracted
-    - patch l3.py, line 14 : pssh = sys.argv[1]
-    - patch l3.py, line 15 : lic_url = sys.argv[2]
+    - patch l3.py, line 14 : `pssh = sys.argv[1]`
+    - patch l3.py, line 15 : `lic_url = sys.argv[2]`
     - patch l3.py, line 34-35 :
       ```
       f = open(sys.argv[3], 'a')
