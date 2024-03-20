@@ -1,6 +1,6 @@
 # auvio-dl
 
-Download videos from auvio
+Download videos from auvio (because Auvio crashes on advertising on Android TV)
 
 ## Installation
 
