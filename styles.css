@@ -1,0 +1,10 @@
+/* styles.css */
+
+.with-auvio-dl svg {
+  display: none !important;
+}
+
+.with-auvio-dl button::before {
+  position: absolute;
+  content: '⬇️';
+}

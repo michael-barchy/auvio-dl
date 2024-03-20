@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Auvio-DL",
+  "version": "1.0.0",
+  "description": "Download videos from Auvio",
+  "background": {
+    "service_worker": "service-worker.js"
+  },
+  "permissions": [
+    "tabs",
+    "debugger",
+    "nativeMessaging"
+  ],
+  "host_permissions": [
+    "*://*/*"
+  ],
+  "content_scripts": [
+    {
+       "matches": ["*://auvio.rtbf.be/*"],
+       "css": ["styles.css"],
+       "js": ["content-script.js"]
+    }
+  ]
+}
