@@ -1,7 +1,13 @@
 #!/bin/sh
 
 cd "$(dirname "$0")"
-cp -f auviodl.json ~/Library/Application\ Support/Google/Chrome/NativeMessagingHosts/
+rm request.json >/dev/null 2>&1
+rm download.sh >/dev/null 2>&1
+if [ ! -f ~/Library/Application\ Support/Google/Chrome/NativeMessagingHosts/auviodl.json ]
+then
+  cp -f auviodl.json ~/Library/Application\ Support/Google/Chrome/NativeMessagingHosts/
+  exit
+fi
 tee request.json
 json=$(cat request.json)
 json=${json:2}
@@ -12,7 +18,6 @@ pssh=$(plutil -extract pssh raw request.json)
 licenseUrl=$(plutil -extract licenseUrl raw request.json)
 rm keys.*
 echo python3 ./Auvio/l3.py \"$pssh\" \"$licenseUrl\" keys.txt >debug.log
-#echo "#!/bin/sh" >keys.command
 echo cd \"$(dirname "$0")\" >>keys.sh
 echo python3 ./Auvio/l3.py \"$pssh\" \"$licenseUrl\" keys.txt >>keys.sh
 /bin/sh ./keys.sh
