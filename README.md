@@ -1,6 +1,6 @@
 # auvio-dl
 
-Download videos from auvio (because Auvio crashes on advertising on Android TV)
+Download videos from auvio (because Auvio crashes while loadind ads on Android TV)
 
 ## Installation
 
@@ -9,7 +9,7 @@ Download videos from auvio (because Auvio crashes on advertising on Android TV)
 * Goto to Google Chrome extensions management
 * Click "Load unpacked extension" and point to the folder where you extracted the ZIP file
 * Change extension id in auviodl.json, line 6 (if necessary)
-* Start auvio-dl.command one to install Native Messaging Host
+* Start auvio-dl.command once to install Native Messaging Host
 
 ## Usage
 
