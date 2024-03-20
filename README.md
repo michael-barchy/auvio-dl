@@ -8,6 +8,7 @@ Download videos from auvio
 * Unpack to your favorite location
 * Goto to Google Chrome extensions management
 * Click "Load unpacked extension" and point to the folder where you extracted the ZIP file
+* Start auvio-dl.command one to install Native Messaging Host
 
 ## Requirements
 
