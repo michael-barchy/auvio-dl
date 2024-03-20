@@ -11,6 +11,15 @@ Download videos from auvio
 * Change extension id in auviodl.json, line 6 (if necessary)
 * Start auvio-dl.command one to install Native Messaging Host
 
+## Usage
+
+* Visit Auvio (and login)
+* Pick a video and click the play button
+* You will find a download button just before the subtitle icon
+* There is no feedback of the download in the browser
+* Temporary downloads are located in N-m3u8DL-RE folder
+* Final file is moved to ~/Downloads
+
 ## Requirements
 
 * _https://www.python.org/downloads/_
