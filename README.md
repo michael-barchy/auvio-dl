@@ -17,8 +17,8 @@ Download videos from auvio
   - unpack it under a folder named N-m3u8DL-RE where the ZIP file was extracted
 * https://www.bento4.com/downloads/
   - copy mp4decrypt to N-m3u8DL-RE folder
-* https://ffmpeg.org/download.html copy
-  - ffmpeg to N-m3u8DL-RE folder
+* https://ffmpeg.org/download.html
+  - copy ffmpeg to N-m3u8DL-RE folder
 * https://files.videohelp.com/u/303646/Auvio.zip
   - unpack it under a folder named Auvio where the ZIP file was extracted
     - patch l3.py, line 14 : pssh = sys.argv[1]
