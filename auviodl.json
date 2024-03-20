@@ -1,0 +1,7 @@
+{
+  "name": "auviodl",
+  "description": "Auvio-DL",
+  "path": "/Users/michael/Applications/Auvio-DL/auvio-dl.command",
+  "type": "stdio",
+  "allowed_origins": ["chrome-extension://mkjkgalphcpfebfflblddmobnifgmhki/"]
+}
