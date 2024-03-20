@@ -14,7 +14,7 @@ Download videos from auvio
 ## Usage
 
 * Visit Auvio (and login)
-* Pick a video and click the play button
+* Pick a video and click the play button (you will see a debugger notification, do NOT cancel)
 * You will find a download button just before the subtitle icon
 * There is no feedback of the download in the browser
 * Temporary downloads are located in N-m3u8DL-RE folder
@@ -44,3 +44,5 @@ Download videos from auvio
 ## Note
 
 This is a mac Google Chrome only version (@todo : install procedure for Native Messaging Host and commands for other OS and browsers)
+
+Avoid downloading multiple videos at the same time
