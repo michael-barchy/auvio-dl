@@ -11,8 +11,8 @@
     "debugger",
     "nativeMessaging"
   ],
-  "host_permissions": [
-    "*://*/*"
+  "optional_host_permissions": [
+    "*://auvio.rtbf.be/*"
   ],
   "content_scripts": [
     {
