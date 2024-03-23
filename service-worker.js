@@ -1,7 +1,5 @@
 /* service-worker.js */
 
-https://rbm-rtbf.live.ott.irdeto.com/licenseServer/widevine/v1/rbm-rtbf/license?contentId=3167998_6BA97Bb&keyId=8e1d711c-7eb5-46ed-b9c3-0e973fa2b978&ls_session=eyJ0eXAiOiJKV1QiLCJraWQiOiIwOGIzODQwZS0wYThhLTQyYTItODNhNC03ZGM0Mzc0ZDJmYmEiLCJhbGciOiJIUzI1NiJ9.eyJhaWQiOiJyYm0tcnRiZiIsInN1YiI6IjYzZjNjNGM0NmUxMzQ2M2FiMWI1ZDhhMzhjY2ZkNDA3XzZCQTk3QmIiLCJpYXQiOjE3MTA4NzA0NjcsImV4cCI6MTcxMDg3NDA2NywianRpIjoicE1abzlKd08wa2M4OFJyOFNjOU1vcWVMOUwxc1B3ZzVXS0lxUHVQbjVYVT0iLCJlbnQiOlt7ImVwaWQiOiJkZWZhdWx0IiwiYmlkIjoiZnJlZV9wcm9kdWN0XzZCQTk3QmIifV0sImlzZSI6dHJ1ZSwiZW5jcnlwdGlvblByb2ZpbGVJZCI6InJ0YmYifQ.WfoDtYUNWYckI9dPZBLP7Nk-hm1msCxgX4kxmEs_dCQ
-
 var currentTabId = '';
 var mpdUrlMask = 'https\:\/\/.*\.cdn\.redbee\.live\/rtbf\/auvio.*\.mpd';
 var licenseUrlMask = 'https\:\/\/.*rtbf.*\/licenseServer\/.*';
